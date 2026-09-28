@@ -1,7 +1,7 @@
 <div align="center">
 <!--
 # Halo, saya Ken 👋
-
+-->
 **Mahasiswa Cyber Security · BINUS University**
 
 Saya tertarik pada keamanan siber (Blue Team, bug bounty, penetration testing)
