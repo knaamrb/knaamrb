@@ -2,7 +2,8 @@
 <!--
 # Halo, saya Ken 👋
 -->
-**Mahasiswa Cyber Security · BINUS University**
+  
+<strong>Mahasiswa Cyber Security · BINUS University</strong>
 
 Saya tertarik pada keamanan siber (Blue Team, bug bounty, penetration testing)
 dan pengembangan web — terutama ekosistem Laravel.
@@ -90,8 +91,7 @@ Metodologi       │ SDLC · Threat Modeling · PASTA · NIST IR
 
 Untuk kolaborasi, review kode, atau sekadar berdiskusi:
 
-- 📧 Email: *(isi email kamu)*
-- 💼 LinkedIn: *(isi link LinkedIn kamu)*
+- 📧 Email: knabramantyo@gmail.com
 
 ---
 
