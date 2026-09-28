@@ -59,7 +59,7 @@ CodeQL untuk static analysis, dan Docker untuk containerization.
 **Stack:** GitHub Actions · CodeQL · Docker · Nginx  
 **Highlights:** Analisis keamanan CI/CD, deteksi secret leakage, arsitektur container
 
-🔗 [Lihat Repository](https://github.com/knaamrb/b64-translator) *(update link setelah ditambahkan sebagai collaborator)*
+🔗 [Lihat Repository](https://github.com/knaamrb/b64-translator)
 <!--
 ---
 
