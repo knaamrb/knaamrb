@@ -12,10 +12,10 @@ dan pengembangan web — terutama ekosistem Laravel.
 
 ---
 
-## 🧭 Tentang Saya
+## 🧭 About Me
 
 - 🎓 Semester 5, Cyber Security — BINUS University, Jakarta
-- 🔐 Fokus karier: **Blue Team Cybersecurity** (threat modeling, SIEM, DevSecOps)
+- 🔐 Career Target: **Blue Team Cybersecurity** (threat modeling, SIEM, DevSecOps)
 - 🌐 Membangun aplikasi web dengan **Laravel**, Blade, dan Inertia.js
 - 📋 Terbiasa mengelola project dan tim sebagai **Project Manager** dalam kegiatan kampus
 
