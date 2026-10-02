@@ -89,8 +89,6 @@ Metodologi       │ SDLC · Threat Modeling · PASTA · NIST IR
 
 ## 📬 Kontak
 
-Untuk kolaborasi, review kode, atau sekadar berdiskusi:
-
 - 📧 Email: knabramantyo@gmail.com
 
 ---
