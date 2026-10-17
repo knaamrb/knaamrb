@@ -23,7 +23,13 @@
 
 ## Profile Summary
 
-Cyber Security student at BINUS University with a technical foundation in programming, databases, web development, and CI/CD, combined with hands-on experience in event management and organizational leadership. I have led a committee of 35 people and managed event budgets, and I am building my security skills through Capture The Flag (CTF) competitions and CI/CD pipeline projects.
+Cyber Security undergraduate at BINUS University focused on DevSecOps
+and web security. Built a containerized web service with a secured
+GitHub Actions pipeline (pip-audit, CodeQL, Trivy image scanning).
+Finalist in the IT Festival 2026 CTF and practicing web exploitation
+through CyLab Security Academy. Comfortable with Git, the Linux
+command line, Docker, Python, and PHP/Laravel. Also led a 35-person
+event committee and managed a budget of up to IDR 28 million.
 
 <div align="right"><a href="#ken-aryo-bramantyo">↑ Back to top</a></div>
 
@@ -31,9 +37,9 @@ Cyber Security student at BINUS University with a technical foundation in progra
 
 ## Education
 
-| Degree | Institution | Period |
-| :--- | :--- | :--- |
-| **Bachelor of Computer Science, Cyber Security** | BINUS University | 2024 – Present |
+| Degree | Institution | Period | GPA |
+| --- | --- | --- | --- |
+| **Bachelor of Computer Science, Cyber Security** | BINUS University | 2024 – Expected 2028 | 3.37 / 4.00 |
 
 <div align="right"><a href="#ken-aryo-bramantyo">↑ Back to top</a></div>
 
@@ -43,7 +49,7 @@ Cyber Security student at BINUS University with a technical foundation in progra
 
 ### Technical
 
-<p>
+<!-- <p>
 <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C"></a>
 <a href="https://www.java.com"><img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"></a>
 <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
@@ -52,14 +58,14 @@ Cyber Security student at BINUS University with a technical foundation in progra
 <a href="https://www.mysql.com"><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"></a>
 <a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"></a>
 <a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"></a>
-</p>
+</p> -->
 
 | Category | Technologies |
-| :--- | :--- |
-| **Programming Languages** | C, Java, Python, PHP |
-| **Frameworks** | Laravel |
-| **Databases** | MySQL |
-| **DevOps & Tools** | GitHub Actions, Docker |
+| --- | --- |
+| **Security** | Web exploitation (CTF), dependency auditing (pip-audit), static analysis (CodeQL), container image scanning (Trivy) |
+| **DevOps & Infrastructure** | Docker, Docker Compose, GitHub Actions, Git, Linux (basic command line) |
+| **Programming** | Python, PHP, Java, C, HTML |
+| **Frameworks & Databases** | Laravel, MySQL |
 
 ### Management
 
@@ -105,7 +111,8 @@ Member of team "bubar". Attempted challenges across all categories, with a focus
 
 [![CyLab Security Academy](https://img.shields.io/badge/CyLab%20Security%20Academy-M4sbro-1F2937?style=flat-square)](https://learn.cylabacademy.org/users/M4sbro)
 
-<!-- TODO: add your Hack The Box public profile link once you have progress to show -->
+**CyLab Security Academy** (practice platform): completed 23
+beginner-level challenges, primarily web exploitation. [![Profile Link](https://img.shields.io/badge/CyLab%20Security%20Academy-M4sbro-1F2937?style=flat-square)](https://learn.cylabacademy.org/users/M4sbro)
 
 <div align="right"><a href="#ken-aryo-bramantyo">↑ Back to top</a></div>
 
@@ -181,9 +188,8 @@ Member of team "bubar". Attempted challenges across all categories, with a focus
 <summary><b>Web Development Activist</b> &nbsp;·&nbsp; HIMTI &nbsp;·&nbsp; 2024 – 2025</summary>
 
 <br>
-
-- Maintained the organization's website to keep it running reliably.
-- Developed the Events page in HTML to showcase HIMTI's activities.
+- Built an Events page in HTML as a practice project assigned by the
+  web development coordinator (not deployed to the live site).
 
 </details>
 
