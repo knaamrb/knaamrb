@@ -85,12 +85,22 @@ Member of team "bubar". Attempted challenges across all categories, with a focus
 
 ## Projects
 
-### CI/CD Pipeline: Base64 Translator
+### B64 Translator: Containerized Web Service with Secured CI Pipeline
 
-A CI/CD pipeline built with GitHub Actions for a Base64 Translator application.
+*Server & Network Administration course project*
 
 [![View Repository](https://img.shields.io/badge/View%20Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/knaamrb/b64-translator)
 
+- Built a two-container web app (Nginx reverse proxy + Flask API) and orchestrated it with Docker Compose.
+- Isolated the backend on a private Docker bridge network. Only Nginx is exposed to the host, and config files are mounted read-only.
+- Hardened the Dockerfile: Gunicorn instead of the dev server, a non-root user, cached dependency layers, and build tooling removed from the final image.
+- Added healthchecks and restart policies so services recover and report their state.
+- Built a GitHub Actions pipeline that runs dependency auditing (`pip-audit`), a Docker build with API smoke tests, and CodeQL static analysis in parallel.
+- Added a gated publish step: the image is scanned with Trivy and pushed to GitHub Container Registry only if the scan passes and the code is on `master`.
+- Used least-privilege permissions (read-only by default, write access only on the publish job) and pinned the Trivy action to a verified commit SHA to reduce supply-chain risk.
+- Resolved two HIGH-severity CVEs caught by the scan by tracing them to build tooling in the base image and removing it from the final image.
+
+**Stack:** Docker, Docker Compose, Nginx, Python/Flask, Gunicorn, GitHub Actions, GHCR, Trivy, CodeQL, pip-audit
 ### Capture The Flag (CTF)
 
 [![CyLab Security Academy](https://img.shields.io/badge/CyLab%20Security%20Academy-M4sbro-1F2937?style=flat-square)](https://learn.cylabacademy.org/users/M4sbro)
