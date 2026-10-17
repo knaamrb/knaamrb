@@ -1,112 +1,193 @@
 <div align="center">
-<!--
-# Halo, saya Ken 👋
--->
-  
-<strong>Mahasiswa Cyber Security · BINUS University</strong>
 
-Saya tertarik pada keamanan siber (Blue Team, bug bounty, penetration testing)
-dan pengembangan web — terutama ekosistem Laravel.
+# Ken Aryo Bramantyo
+
+**Cyber Security Student @ BINUS University**
+
+<a href="https://www.linkedin.com/in/ken-aryo/"><img src="https://img.shields.io/badge/LinkedIn-Ken%20Aryo%20Bramantyo-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:knabramantyo@gmail.com"><img src="https://img.shields.io/badge/Email-knabramantyo%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://github.com/knaamrb"><img src="https://img.shields.io/badge/GitHub-knaamrb-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+
+<br>
+
+<a href="#profile-summary">Profile</a> &nbsp;|&nbsp;
+<a href="#education">Education</a> &nbsp;|&nbsp;
+<a href="#skills">Skills</a> &nbsp;|&nbsp;
+<a href="#awards">Awards</a> &nbsp;|&nbsp;
+<a href="#projects">Projects</a> &nbsp;|&nbsp;
+<a href="#experience">Experience</a> &nbsp;|&nbsp;
+<a href="#contact">Contact</a>
 
 </div>
 
 ---
 
-## 🧭 About Me
+## Profile Summary
 
-- 🎓 Semester 5, Cyber Security — BINUS University, Jakarta
-- 🔐 Career Target: **Blue Team Cybersecurity** (threat modeling, SIEM, DevSecOps)
-- 🌐 Membangun aplikasi web dengan **Laravel**, Blade, dan Inertia.js
-- 📋 Terbiasa mengelola project dan tim sebagai **Project Manager** dalam kegiatan kampus
+Cyber Security student at BINUS University with a technical foundation in programming, databases, web development, and CI/CD, combined with hands-on experience in event management and organizational leadership. I have led a committee of 35 people and managed event budgets, and I am building my security skills through Capture The Flag (CTF) competitions and CI/CD pipeline projects.
 
----
-
-## 🗂️ Portofolio Project
-
-### 🔨 BenerinID
-> Platform marketplace jasa tukang berbasis Laravel
-
-Aplikasi yang menghubungkan klien dengan penyedia layanan tukang/handyman.
-Dibangun dengan pendekatan SDLC penuh — dari use case diagram, CRC cards, FPA, hingga implementasi.
-
-**Stack:** Laravel · Livewire · Midtrans · AES-256 (enkripsi PII) · RBAC  
-**Highlights:** Integrasi payment gateway, enkripsi data sensitif, role management multi-level
-
-🔗 [Lihat Repository](https://github.com/knaamrb/benerinid)
-<!--
----
-
-### 🏛️ KopaJingga
-> Platform koperasi digital untuk alumni — Laravel + Inertia.js
-
-Sistem manajemen koperasi berbasis web yang mencakup pengelolaan simpanan (pokok, wajib, sukarela),
-perhitungan SHU, alur proposal anggota, dan monitoring keamanan terintegrasi.
-
-**Stack:** Laravel · Breeze · React · Inertia.js · Midtrans Snap · Wazuh · MySQL  
-**Highlights:** Ledger-based balance system, admin approval flow, Wazuh log monitoring, SDLC berdokumen lengkap (Project Plan, SRS, DDS)
-
-> 🔒 Repository bersifat **private** karena project ini akan dipublikasikan.
-> Tersedia untuk review atas permintaan — silakan hubungi saya langsung.
--->
----
-
-### 🔄 b64-translator
-> CI/CD pipeline dengan DevSecOps implementation
-
-Project yang dianalisis dan dikembangkan pipeline-nya menggunakan GitHub Actions,
-CodeQL untuk static analysis, dan Docker untuk containerization.
-
-**Stack:** GitHub Actions · CodeQL · Docker · Nginx  
-**Highlights:** Analisis keamanan CI/CD, deteksi secret leakage, arsitektur container
-
-🔗 [Lihat Repository](https://github.com/knaamrb/b64-translator)
-<!--
----
-
-### 📱 Mobile Penetration Testing — Alfagift APK
-> Laporan pengujian keamanan aplikasi Android
-
-Pengujian keamanan pada aplikasi Alfagift menggunakan framework OWASP MASTG/MASVS.
-Menemukan dan mendokumentasikan dua kerentanan utama.
-
-**Tools:** Frida · JADX · MobSF · Android Emulator  
-**Temuan:** VUL-001 Cleartext Traffic · VUL-002 Firebase Key Disclosure
-
-🔗 *(tambahkan link laporan / repo jika tersedia)*
--->
----
-
-## 🛠️ Tech Stack
-
-```
-Cybersecurity    │ OWASP WSTG · OWASP MASTG · STRIDE/DREAD · Wazuh · Frida · MobSF · Burp Suite
-Web Development  │ Laravel · Livewire · Inertia.js · React · MySQL · Nginx · Docker
-DevSecOps        │ GitHub Actions · CodeQL · CI/CD pipeline security
-Metodologi       │ SDLC · Threat Modeling · PASTA · NIST IR
-```
+<div align="right"><a href="#ken-aryo-bramantyo">↑ Back to top</a></div>
 
 ---
 
-## 📬 Kontak
+## Education
 
-- 📧 Email: knabramantyo@gmail.com
+| Degree | Institution | Period |
+| :--- | :--- | :--- |
+| **Bachelor of Computer Science, Cyber Security** | BINUS University | 2024 – Present |
+
+<div align="right"><a href="#ken-aryo-bramantyo">↑ Back to top</a></div>
 
 ---
 
-<div align="center">
-<sub>README ini dibuat dan diperbarui secara berkala seiring project berjalan.</sub>
-</div>
-<!--
-**knaamrb/knaamrb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-<!--
-Here are some ideas to get you started:
-<!--
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Skills
+
+### Technical
+
+<p>
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C">
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP">
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+</p>
+
+| Category | Technologies |
+| :--- | :--- |
+| **Programming Languages** | C, Java, Python, PHP |
+| **Frameworks** | Laravel |
+| **Databases** | MySQL |
+| **DevOps & Tools** | GitHub Actions, Docker |
+
+### Management
+
+| Area | Description |
+| :--- | :--- |
+| **Planning** | Event planning, entry/exit flow, and emergency procedures |
+| **Risk Mitigation** | Contingency planning and emergency scenario preparation |
+
+<div align="right"><a href="#ken-aryo-bramantyo">↑ Back to top</a></div>
+
+---
+
+## Awards
+
+**Finalist, Capture The Flag, IT Festival 2026**
+Organized by HIMAVO Micro IT
+
+Member of team "bubar". Attempted challenges across all categories, with a focus on web, and studied the team's solutions to build hands-on security knowledge.
+
+<div align="right"><a href="#ken-aryo-bramantyo">↑ Back to top</a></div>
+
+---
+
+## Projects
+
+### CI/CD Pipeline: Base64 Translator
+
+A CI/CD pipeline built with GitHub Actions for a Base64 Translator application.
+
+[![View Repository](https://img.shields.io/badge/View%20Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/knaamrb/b64-translator)
+
+### Capture The Flag (CTF)
+
+[![CyLab Security Academy](https://img.shields.io/badge/CyLab%20Security%20Academy-M4sbro-1F2937?style=flat-square)](https://learn.cylabacademy.org/users/M4sbro)
+
+<!-- TODO: add your Hack The Box public profile link once you have progress to show -->
+
+<div align="right"><a href="#ken-aryo-bramantyo">↑ Back to top</a></div>
+
+---
+
+## Experience
+
+| Role | Organization | Period |
+| :--- | :--- | :--- |
+| Project Manager, Eid al-Adha Event | MT Al-Khawarizmi | Mar 2026 – May 2026 |
+| Logistics Staff, PMB Expo | MT Al-Khawarizmi | Jul 2026 – Sep 2026 |
+| Member Development (Kaderisasi) Staff | MT Al-Khawarizmi | Feb 2026 – Present |
+| Sponsorship Staff, TechFest | HIMTI | Apr 2026 – Jul 2026 |
+| Technical Equipment, Transportation & Security (PTTK) Staff, Hishot 2025 | HIMTI | Apr 2025 – Sep 2025 |
+| Web Development Activist | HIMTI | 2024 – 2025 |
+
+<details open>
+<summary><b>Project Manager, Eid al-Adha Event</b> &nbsp;·&nbsp; MT Al-Khawarizmi &nbsp;·&nbsp; Mar 2026 – May 2026</summary>
+
+<br>
+
+- Coordinated the media, public relations, program, equipment, and catering divisions, along with volunteers.
+- Managed a committee of 35 members and a budget of up to IDR 28 million.
+- Liaised with BINUS staff and campus security.
+- Responsible for ensuring the event ran smoothly and on schedule.
+
+</details>
+
+<details>
+<summary><b>Logistics Staff, PMB Expo</b> &nbsp;·&nbsp; MT Al-Khawarizmi &nbsp;·&nbsp; Jul 2026 – Sep 2026</summary>
+
+<br>
+
+- Prepared the supplies and equipment needed for the expo and spent a budget of IDR 300,000.
+- Staffed the booth and invited expo visitors to join the organization.
+
+</details>
+
+<details>
+<summary><b>Member Development (Kaderisasi) Staff</b> &nbsp;·&nbsp; MT Al-Khawarizmi &nbsp;·&nbsp; Feb 2026 – Present</summary>
+
+<br>
+
+- Helped prepare circle time sessions.
+- Helped organize Friday prayer.
+
+</details>
+
+<details>
+<summary><b>Sponsorship Staff, TechFest</b> &nbsp;·&nbsp; HIMTI &nbsp;·&nbsp; Apr 2026 – Jul 2026</summary>
+
+<br>
+
+- Responsible for documenting meeting notes from sponsorship client meetings.
+
+</details>
+
+<details>
+<summary><b>Technical Equipment, Transportation & Security (PTTK) Staff, Hishot 2025</b> &nbsp;·&nbsp; HIMTI &nbsp;·&nbsp; Apr 2025 – Sep 2025</summary>
+
+<br>
+
+<!-- TODO: verify these dates -->
+
+- Guided attendees to prayer facilities and supervised the seminar room, ensuring attendees returned safely and on time.
+- Kept the seminar orderly, maintained the planned seating layout, and handed out microphones when needed.
+- Contributed to planning attendee entry and exit flow, as well as the emergency procedure.
+- Served on the documentation team for the online seminar.
+
+</details>
+
+<details>
+<summary><b>Web Development Activist</b> &nbsp;·&nbsp; HIMTI &nbsp;·&nbsp; 2024 – 2025</summary>
+
+<br>
+
+- Maintained the organization's website to keep it running reliably.
+- Developed the Events page in HTML to showcase HIMTI's activities.
+
+</details>
+
+<div align="right"><a href="#ken-aryo-bramantyo">↑ Back to top</a></div>
+
+---
+
+## Contact
+
+| | |
+| :--- | :--- |
+| **Email** | [knabramantyo@gmail.com](mailto:knabramantyo@gmail.com) |
+| **LinkedIn** | [Ken Aryo Bramantyo](https://www.linkedin.com/in/ken-aryo/) |
+| **GitHub** | [knaamrb](https://github.com/knaamrb) |
+
+<div align="right"><a href="#ken-aryo-bramantyo">↑ Back to top</a></div>
