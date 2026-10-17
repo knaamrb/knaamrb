@@ -15,8 +15,7 @@
 <a href="#skills">Skills</a> &nbsp;|&nbsp;
 <a href="#awards">Awards</a> &nbsp;|&nbsp;
 <a href="#projects">Projects</a> &nbsp;|&nbsp;
-<a href="#experience">Experience</a> &nbsp;|&nbsp;
-<a href="#contact">Contact</a>
+<a href="#experience">Experience</a>
 
 </div>
 
@@ -177,17 +176,5 @@ A CI/CD pipeline built with GitHub Actions for a Base64 Translator application.
 - Developed the Events page in HTML to showcase HIMTI's activities.
 
 </details>
-
-<div align="right"><a href="#ken-aryo-bramantyo">↑ Back to top</a></div>
-
----
-
-## Contact
-
-| | |
-| :--- | :--- |
-| **Email** | [knabramantyo@gmail.com](mailto:knabramantyo@gmail.com) |
-| **LinkedIn** | [Ken Aryo Bramantyo](https://www.linkedin.com/in/ken-aryo/) |
-| **GitHub** | [knaamrb](https://github.com/knaamrb) |
 
 <div align="right"><a href="#ken-aryo-bramantyo">↑ Back to top</a></div>
