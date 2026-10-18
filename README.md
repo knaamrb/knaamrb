@@ -13,7 +13,7 @@
 <a href="#profile-summary">Profile</a> &nbsp;|&nbsp;
 <a href="#education">Education</a> &nbsp;|&nbsp;
 <a href="#skills">Skills</a> &nbsp;|&nbsp;
-<a href="#awards">Awards</a> &nbsp;|&nbsp;
+<a href="#achievements">Achievements</a> &nbsp;|&nbsp;
 <a href="#projects">Projects</a> &nbsp;|&nbsp;
 <a href="#experience">Experience</a>
 
@@ -47,8 +47,6 @@ event committee and managed a budget of up to IDR 28 million.
 
 ## Skills
 
-### Technical
-
 <!-- <p>
 <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C"></a>
 <a href="https://www.java.com"><img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"></a>
@@ -62,28 +60,21 @@ event committee and managed a budget of up to IDR 28 million.
 
 | Category | Technologies |
 | --- | --- |
-| **Security** | Web exploitation (CTF), dependency auditing (pip-audit), static analysis (CodeQL), container image scanning (Trivy) |
-| **DevOps & Infrastructure** | Docker, Docker Compose, GitHub Actions, Git, Linux (basic command line) |
+| **Security** | Web exploitation (CTF), pip-audit, CodeQL, Trivy |
+| **DevOps & Infrastructure** | Docker, Docker Compose, GitHub Actions, GitHub Container Registry, Nginx, Git, Linux (basic command line) |
 | **Programming** | Python, PHP, Java, C, HTML |
 | **Frameworks & Databases** | Laravel, MySQL |
-
-### Management
-
-| Area | Description |
-| :--- | :--- |
-| **Planning** | Event planning, entry/exit flow, and emergency procedures |
-| **Risk Mitigation** | Contingency planning and emergency scenario preparation |
 
 <div align="right"><a href="#ken-aryo-bramantyo">↑ Back to top</a></div>
 
 ---
 
-## Awards
+## Achievements
 
 **Finalist, Capture The Flag, IT Festival 2026**
-Organized by HIMAVO Micro IT
+Organized by HIMAVO Micro IT, IPB University | Team of 3
 
-Member of team "bubar". Attempted challenges across all categories, with a focus on web, and studied the team's solutions to build hands-on security knowledge.
+Member of team "bubar". Attempted challenges across categories, with a focus on web exploitation, and studied the team's solutions to build hands-on security knowledge.
 
 <div align="right"><a href="#ken-aryo-bramantyo">↑ Back to top</a></div>
 
@@ -93,26 +84,27 @@ Member of team "bubar". Attempted challenges across all categories, with a focus
 
 ### B64 Translator: Containerized Web Service with Secured CI Pipeline
 
-*Server & Network Administration course project*
+*Server & Network Administration course project · Team of 4 · Feb 2026 – Jun 2026*
 
+*My contribution: Docker setup and the CI pipeline. The application code was AI-generated.*
 [![View Repository](https://img.shields.io/badge/View%20Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/knaamrb/b64-translator)
 
-- Built a two-container web app (Nginx reverse proxy + Flask API) and orchestrated it with Docker Compose.
-- Isolated the backend on a private Docker bridge network. Only Nginx is exposed to the host, and config files are mounted read-only.
+- Containerized the web app with Docker Compose: Nginx reverse proxy in front of a Python API, with the backend isolated on a private bridge network. Only Nginx is exposed to the host, and config files are mounted read-only.
 - Hardened the Dockerfile: Gunicorn instead of the dev server, a non-root user, cached dependency layers, and build tooling removed from the final image.
-- Added healthchecks and restart policies so services recover and report their state.
-- Built a GitHub Actions pipeline that runs dependency auditing (`pip-audit`), a Docker build with API smoke tests, and CodeQL static analysis in parallel.
-- Added a gated publish step: the image is scanned with Trivy and pushed to GitHub Container Registry only if the scan passes and the code is on `master`.
-- Used least-privilege permissions (read-only by default, write access only on the publish job) and pinned the Trivy action to a verified commit SHA to reduce supply-chain risk.
-- Resolved two HIGH-severity CVEs caught by the scan by tracing them to build tooling in the base image and removing it from the final image.
+- Added healthchecks and restart policies.
+- Built a GitHub Actions pipeline running pip-audit, a Docker build with API smoke tests, and CodeQL analysis in parallel.
+- Gated image publishing: Trivy scans the image, and it is pushed to GitHub Container Registry only if the scan passes on `master`.
+- Used least-privilege workflow permissions and pinned the Trivy action to a commit SHA.
+- Fixed two HIGH-severity CVEs flagged by Trivy by removing build tooling from the final image.
 
-**Stack:** Docker, Docker Compose, Nginx, Python/Flask, Gunicorn, GitHub Actions, GHCR, Trivy, CodeQL, pip-audit
+**Stack:** Docker, Docker Compose, Nginx, Gunicorn, GitHub Actions, GHCR, Trivy, CodeQL, pip-audit (application: AI-generated Python/Flask)
+
+
+
 ### Capture The Flag (CTF)
 
-[![CyLab Security Academy](https://img.shields.io/badge/CyLab%20Security%20Academy-M4sbro-1F2937?style=flat-square)](https://learn.cylabacademy.org/users/M4sbro)
-
-**CyLab Security Academy** (practice platform): completed 23
-beginner-level challenges, primarily web exploitation. [![Profile Link](https://img.shields.io/badge/CyLab%20Security%20Academy-M4sbro-1F2937?style=flat-square)](https://learn.cylabacademy.org/users/M4sbro)
+Practice platform. Completed 23 beginner-level challenges, mostly web exploitation.
+[![View Profile](https://img.shields.io/badge/CyLab%20Security%20Academy-M4sbro-1F2937?style=flat-square)](https://learn.cylabacademy.org/users/M4sbro)
 
 <div align="right"><a href="#ken-aryo-bramantyo">↑ Back to top</a></div>
 
@@ -175,7 +167,6 @@ beginner-level challenges, primarily web exploitation. [![Profile Link](https://
 
 <br>
 
-<!-- TODO: verify these dates -->
 
 - Guided attendees to prayer facilities and supervised the seminar room, ensuring attendees returned safely and on time.
 - Kept the seminar orderly, maintained the planned seating layout, and handed out microphones when needed.
