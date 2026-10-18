@@ -176,7 +176,7 @@ Practice platform. Completed 23 beginner-level challenges, mostly web exploitati
 </details>
 
 <details>
-<summary><b>Web Development Activist</b> &nbsp;·&nbsp; HIMTI &nbsp;·&nbsp; 2024 – 2025</summary>
+<summary><b>Web Development Activist</b> &nbsp;·&nbsp; HIMTI &nbsp;·&nbsp; Mar 2025 – present</summary>
 
 <br>
 - Built an Events page in HTML as a practice project assigned by the
