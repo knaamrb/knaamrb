@@ -116,7 +116,7 @@ Practice platform. Completed 23 beginner-level challenges, mostly web exploitati
 | :--- | :--- | :--- |
 | Project Manager, Eid al-Adha Event | MT Al-Khawarizmi | Mar 2026 – May 2026 |
 | Logistics Staff, PMB Expo | MT Al-Khawarizmi | Jul 2026 – Sep 2026 |
-| Member Development (Kaderisasi) Staff | MT Al-Khawarizmi | Feb 2026 – Present |
+| Member Development (Kaderisasi) Activist | MT Al-Khawarizmi | Feb 2026 – Present |
 | Sponsorship Staff, TechFest | HIMTI | Apr 2026 – Jul 2026 |
 | Technical Equipment, Transportation & Security (PTTK) Staff, Hishot 2025 | HIMTI | Apr 2025 – Sep 2025 |
 | Web Development Activist | HIMTI | 2024 – 2025 |
@@ -144,7 +144,7 @@ Practice platform. Completed 23 beginner-level challenges, mostly web exploitati
 </details>
 
 <details>
-<summary><b>Member Development (Kaderisasi) Staff</b> &nbsp;·&nbsp; MT Al-Khawarizmi &nbsp;·&nbsp; Feb 2026 – Present</summary>
+<summary><b>Member Development (Kaderisasi) Activist</b> &nbsp;·&nbsp; MT Al-Khawarizmi &nbsp;·&nbsp; Feb 2026 – Present</summary>
 
 <br>
 
